@@ -193,7 +193,7 @@ def send_email(stats: dict, path: str) -> None:
 def main():
     # Send update email every day at 8am
     while True:
-        if (dt.datetime.now().hour == 22) or True:
+        if (dt.datetime.now().hour == 8) or True:
             today_data = get_stock_data()
             stats = get_stats(today_data)
             path = generate_plot(today_data)
