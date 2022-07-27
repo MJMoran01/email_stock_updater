@@ -16,8 +16,8 @@ STOCK = "NFLX"
 NAME = "Michael"
 SENDER = "Michael.Moran.bot@gmail.com"
 RECIPIENT = "MichaelJMoran2001@gmail.com"
-PASSWORD = "gbprtlczbfxcnbhu"       # Password removed for security - this parameter must be an "app password" generated from GMAIL's 2FA
-APIKEY = "ZSRP6G6U5MZM6QV1"         # API Key for 'https://www.alphavantage.co/query?' endpoint
+PASSWORD = ""                               # Password removed for security - this parameter must be an "app password" generated from GMAIL's 2FA
+APIKEY = ""                                 # API Key for 'https://www.alphavantage.co/query?' endpoint
 PARAMETERS = {
     "function": "TIME_SERIES_INTRADAY",
     "symbol": STOCK,
